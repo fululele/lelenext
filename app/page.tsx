@@ -25,7 +25,7 @@ export default function Home() {
             type="text"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Name, itumalo, or keywords…"
+            placeholder="Name, itumalo, malaefono, or keywords…"
             className="w-full rounded-lg border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-slate-400 focus:ring-2 focus:ring-slate-200"
           />
           <button
@@ -55,6 +55,9 @@ export default function Home() {
                         <p className="mt-1 text-sm font-medium text-slate-600">
                           {city.itumalo}
                         </p>
+                        <p className="mt-1 text-sm text-slate-500">
+                          {city.malaefono}
+                        </p>
                         <p className="mt-3 leading-7 text-slate-700">
                           {city.faalupega}
                         </p>
@@ -65,7 +68,8 @@ export default function Home() {
               </div>
             ) : (
               <p className="text-slate-700">
-                No cities found. Try different name, itumalo, or keywords.
+                No cities found. Try different name, itumalo, malaefono, or
+                keywords.
               </p>
             )}
           </div>
