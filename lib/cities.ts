@@ -55,13 +55,23 @@ export const cities: City[] = [
   },
 ];
 
-export function findCityByName(query: string): City | null {
-  const normalizedQuery = query.trim().toLowerCase();
-  if (!normalizedQuery) {
-    return null;
+/**
+ * Returns every city for which every whitespace-separated token appears as a
+ * case-insensitive substring somewhere in the name, country, or description.
+ */
+export function findCities(query: string): City[] {
+  const tokens = query
+    .trim()
+    .toLowerCase()
+    .split(/\s+/)
+    .filter((t) => t.length > 0);
+  if (tokens.length === 0) {
+    return [];
   }
 
-  return (
-    cities.find((city) => city.name.toLowerCase() === normalizedQuery) ?? null
-  );
+  return cities.filter((city) => {
+    const haystack =
+      `${city.name} ${city.country} ${city.description}`.toLowerCase();
+    return tokens.every((token) => haystack.includes(token));
+  });
 }

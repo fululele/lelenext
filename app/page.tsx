@@ -1,16 +1,16 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { City, findCityByName } from "@/lib/cities";
+import { City, findCities } from "@/lib/cities";
 
 export default function Home() {
   const [query, setQuery] = useState("");
-  const [result, setResult] = useState<City | null>(null);
+  const [results, setResults] = useState<City[]>([]);
   const [hasSearched, setHasSearched] = useState(false);
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    setResult(findCityByName(query));
+    setResults(findCities(query));
     setHasSearched(true);
   };
 
@@ -21,7 +21,7 @@ export default function Home() {
           City Finder
         </h1>
         <p className="mt-2 text-center text-sm text-slate-600 sm:text-base">
-          Search for a city to read a quick description.
+          Search by city, country, or any word from the descriptions.
         </p>
 
         <form
@@ -32,7 +32,7 @@ export default function Home() {
             type="text"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Enter a city name..."
+            placeholder="City, country, or keywords…"
             className="w-full rounded-lg border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-slate-400 focus:ring-2 focus:ring-slate-200"
           />
           <button
@@ -45,21 +45,34 @@ export default function Home() {
 
         {hasSearched && (
           <div className="mt-6 rounded-xl border border-slate-200 bg-slate-50 p-5 shadow-sm">
-            {result ? (
-              <article>
-                <h2 className="text-2xl font-semibold text-slate-900">
-                  {result.name}
-                </h2>
-                <p className="mt-1 text-sm font-medium text-slate-600">
-                  {result.country}
+            {results.length > 0 ? (
+              <div className="space-y-4">
+                <p className="text-sm font-medium text-slate-600">
+                  {results.length === 1
+                    ? "1 city matched"
+                    : `${results.length} cities matched`}
                 </p>
-                <p className="mt-4 leading-7 text-slate-700">
-                  {result.description}
-                </p>
-              </article>
+                <ul className="space-y-4">
+                  {results.map((city) => (
+                    <li key={city.name}>
+                      <article className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
+                        <h2 className="text-xl font-semibold text-slate-900 sm:text-2xl">
+                          {city.name}
+                        </h2>
+                        <p className="mt-1 text-sm font-medium text-slate-600">
+                          {city.country}
+                        </p>
+                        <p className="mt-3 leading-7 text-slate-700">
+                          {city.description}
+                        </p>
+                      </article>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             ) : (
               <p className="text-slate-700">
-                City not found. Try searching for another city.
+                No cities found. Try different city, country, or keywords.
               </p>
             )}
           </div>
