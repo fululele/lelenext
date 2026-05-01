@@ -17,22 +17,15 @@ export default function Home() {
   return (
     <main className="flex min-h-screen items-center justify-center bg-slate-100 px-4 py-10">
       <section className="w-full max-w-2xl rounded-2xl bg-white p-6 shadow-sm sm:p-8">
-        <h1 className="text-center text-3xl font-bold text-slate-900">
-          City Finder
-        </h1>
-        <p className="mt-2 text-center text-sm text-slate-600 sm:text-base">
-          Search by city, country, or any word from the descriptions.
-        </p>
-
         <form
           onSubmit={handleSubmit}
-          className="mt-6 flex flex-col gap-3 sm:flex-row"
+          className="flex flex-col gap-3 sm:flex-row"
         >
           <input
             type="text"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="City, country, or keywords…"
+            placeholder="Name, itumalo, or keywords…"
             className="w-full rounded-lg border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-slate-400 focus:ring-2 focus:ring-slate-200"
           />
           <button
@@ -60,10 +53,10 @@ export default function Home() {
                           {city.name}
                         </h2>
                         <p className="mt-1 text-sm font-medium text-slate-600">
-                          {city.country}
+                          {city.itumalo}
                         </p>
                         <p className="mt-3 leading-7 text-slate-700">
-                          {city.description}
+                          {city.faalupega}
                         </p>
                       </article>
                     </li>
@@ -72,7 +65,7 @@ export default function Home() {
               </div>
             ) : (
               <p className="text-slate-700">
-                No cities found. Try different city, country, or keywords.
+                No cities found. Try different name, itumalo, or keywords.
               </p>
             )}
           </div>
