@@ -14,6 +14,13 @@ export const cities: City[] = [
       "Afio mai le sa'ousoali'i (Unitoa), Afio mai le matua (Liufau) le tama aitu ma tagata, susu mai ali'i o le faleono (Ponausuia, Uli, Tilo, Afu, Niumatalolo, Saoimanulua), mamalu mai Paopaoailua ma Tufaga ma le launiusaelua",
   },
   {
+    name: "Pago Pago",
+    itumalo: "Launiusaelua",
+    malaefono: "Gagamoe",
+    faalupega:
+      "Afio mai Mauga, le Ma'oputasi, le tama fa'asausau a Sua ma le Vaifanua, Fofo ma Aitulagi, Itu'au ma Alataua, susu mai tei (Fanene, Lealaifuaneva, Uifa'atali), susu mai anoalo (Asuega, Teo, Tuimaletavai, Olotoa, Leota), susu mai matua (Taito, Pulumataala), susu mai nofofanau (Gi, Vaivao), susu mai anoaloifale (Lea'oa, Fa'afitinalo), mamalu mai lau tofa Tua'olo, na fale agafulu ai le motu, mamalu mai le falefa (Fuga, Mageo, Poiali'i, Logo), ma le launiusaelua",
+  },
+  {
     name: "Tokyo",
     itumalo: "Japan",
     malaefono: "Ueno Park Commons",
