@@ -28,11 +28,11 @@ export const cities: City[] = [
       "Afio mai le sa'ousoali'i (Lutu), susu mai le toeali'i (Ma'ilo), susu mai tapunu'u (Faagata, Tiumalu), afio le aloali'i (Afoafouvale), maliu Taesaliali'i ma Ta'amuvaigafa, ma upu i le launiusaelua (Tinaeatule, Faasamisamia)",
   },
   {
-    name: "Paris",
-    itumalo: "France",
-    malaefono: "Esplanade des Invalides",
+    name: "Faga'alu",
+    itumalo: "Launiusaelua",
+    malaefono: "Vaovai",
     faalupega:
-      "Paris is celebrated for its architecture, museums, and cafe culture. Walkable boulevards connect historic landmarks with lively neighborhoods filled with bookstores and bakeries. Its atmosphere blends elegance, art, and everyday street life in a way that feels instantly recognizable.",
+      "Afio le afioga i ma'opu (Fano, Amituana'i), susu le nofofanau (Gaisoa), mamalu mai le launiusaelua (Usoagalelei, Fa'atiliga) ma le lauti na laulelei",
   },
   {
     name: "New York",
