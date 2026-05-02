@@ -42,11 +42,11 @@ export const cities: City[] = [
       "Afifio maopu (Savusa, Levu, Tago, Soliai), susu mai usoalii (Lavatai, Leapagatele), susu mai taumafaalofi (Sialega, Fanene, Fagasoaia, Puailoa), mamalu mai lo outou toafa (Lagafuaina, Maluia, Taufetee, Seui), mamalu upu i le atimamea ma le ituau malosi",
   },
   {
-    name: "Cairo",
-    itumalo: "Egypt",
-    malaefono: "Al-Azhar Midan",
+    name: "Fagasa",
+    itumalo: "Ituau",
+    malaefono: "Malaepule, Malaeti'a",
     faalupega:
-      "Cairo sits along the Nile and carries layers of ancient and modern history. Its streets are filled with markets, mosques, and neighborhoods that reflect centuries of cultural exchange. The city's scale and rhythm can feel overwhelming, yet its historical depth is unmatched.",
+      "Afio mai le toafia o alii, susu mai le matua ma usoalii, mamalu mai lo outou toafa ma le lauti na laulelei, ma upu ia Ituau",
   },
   {
     name: "Sydney",
