@@ -21,11 +21,11 @@ export const cities: City[] = [
       "Afio mai Mauga, le Ma'oputasi, le tama fa'asausau a Sua ma le Vaifanua, Fofo ma Aitulagi, Itu'au ma Alataua, susu mai tei (Fanene, Lealaifuaneva, Uifa'atali), susu mai anoalo (Asuega, Teo, Tuimaletavai, Olotoa, Leota), susu mai matua (Taito, Pulumataala), susu mai nofofanau (Gi, Vaivao), susu mai anoaloifale (Lea'oa, Fa'afitinalo), mamalu mai lau tofa Tua'olo, na fale agafulu ai le motu, mamalu mai le falefa (Fuga, Mageo, Poiali'i, Logo), ma le launiusaelua",
   },
   {
-    name: "Tokyo",
-    itumalo: "Japan",
-    malaefono: "Ueno Park Commons",
+    name: "Fagatogo",
+    itumalo: "Launiusaelua",
+    malaefono: "Malaeoletalu",
     faalupega:
-      "Tokyo is a fast-paced metropolis where modern design meets long-held traditions. Neighborhoods shift quickly from quiet temples and local markets to neon-lit streets full of food and nightlife. The city is known for efficient transit, careful attention to detail, and a constant sense of movement.",
+      "Afio mai le sa'ousoali'i (Lutu), susu mai le toeali'i (Ma'ilo), susu mai tapunu'u (Faagata, Tiumalu), afio le aloali'i (Afoafouvale), maliu Taesaliali'i ma Ta'amuvaigafa, ma upu i le launiusaelua (Tinaeatule, Faasamisamia)",
   },
   {
     name: "Paris",
