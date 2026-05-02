@@ -28,18 +28,18 @@ export const cities: City[] = [
       "Afio mai le sa'ousoali'i (Lutu), susu mai le toeali'i (Ma'ilo), susu mai tapunu'u (Faagata, Tiumalu), afio le aloali'i (Afoafouvale), maliu Taesaliali'i ma Ta'amuvaigafa, ma upu i le launiusaelua (Tinaeatule, Faasamisamia)",
   },
   {
-    name: "Faga'alu",
+    name: "Fagaalu",
     itumalo: "Launiusaelua",
     malaefono: "Vaovai",
     faalupega:
       "Afio le afioga i ma'opu (Fano, Amituana'i), susu le nofofanau (Gaisoa), mamalu mai le launiusaelua (Usoagalelei, Fa'atiliga) ma le lauti na laulelei",
   },
   {
-    name: "New York",
-    itumalo: "United States",
-    malaefono: "Washington Square Park",
+    name: "Nuuuli",
+    itumalo: "Ituau",
+    malaefono: "Nuuuli, Paepaeuli",
     faalupega:
-      "New York City is a dense and energetic global hub with distinct boroughs and communities. It offers world-class theater, finance, cuisine, and public spaces like Central Park. The pace is intense, but its diversity and creativity make it one of the most influential cities in the world.",
+      "Afifio maopu (Savusa, Levu, Tago, Soliai), susu mai usoalii (Lavatai, Leapagatele), susu mai taumafaalofi (Sialega, Fanene, Fagasoaia, Puailoa), mamalu mai lo outou toafa (Lagafuaina, Maluia, Taufetee, Seui), mamalu upu i le atimamea ma le ituau malosi",
   },
   {
     name: "Cairo",
