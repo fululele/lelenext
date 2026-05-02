@@ -56,11 +56,18 @@ export const cities: City[] = [
       "Afio mai Matautia le ulua'i sa'o i papa, susu le sao fetalai (Laupola), susu le matua (Tela), susu mai Tamapa'a (Tuimavave), susu mai Faasuamaleaui le alo o Mata'afa, susu le aloaii (Tuiafono), maliu mai ao (Sua, Matagaono, Iaulualo, Aoelua), maliu mai Afonotele",
   },
   {
-    name: "Buenos Aires",
-    itumalo: "Argentina",
-    malaefono: "Plaza de Mayo",
+    name: "Aoa",
+    itumalo: "Vaifanua",
+    malaefono: "Lalotavai",
     faalupega:
-      "Buenos Aires is famous for its music, dance, and late-night social culture. European-influenced architecture stands beside colorful districts, independent theaters, and busy cafes. The city feels expressive and literary, with strong local traditions around food and conversation.",
+      "Susu mai Aumoeualogo, susu mai Teo, susu le matua (Mamea), afio le aloalii (Luafalemana), susu mai Afusia, maliu ai lo outou toafa (Olomua, Lavea, Mapuolesega, Aioletuna), fetalaiga a Mauia ma oe le atimanutui e fa",
+  },
+  {
+    name: "Vatia",
+    itumalo: "Vaifanua",
+    malaefono: "Laloulu, le tua o Malotumau, Fatulegaee, Fagaitua",
+    faalupega:
+      "Susu le tamaitai o le ao (Gaoteote), susu mai Tagoilelagi, susu nofofanau (Alofaituli, Patea) laua o le tao veloaluga, susu mai usoalii (Tagovailoa, Taito, Nino, Tuna, Taulaga) mamalu mai outlua matua (Masaniai, Tuiasosopo), ma upu ia te oulua le saofaiga (Lauti, Uta, Afuola) ma le lautinalaulelei",
   },
   {
     name: "Nairobi",
