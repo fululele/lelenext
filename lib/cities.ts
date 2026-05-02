@@ -49,11 +49,11 @@ export const cities: City[] = [
       "Afio mai le toafia o alii, susu mai le matua ma usoalii, mamalu mai lo outou toafa ma le lauti na laulelei, ma upu ia Ituau",
   },
   {
-    name: "Sydney",
-    itumalo: "Australia",
-    malaefono: "Hyde Park North",
+    name: "Afono",
+    itumalo: "Sua",
+    malaefono: "Malaefono, Avagafono",
     faalupega:
-      "Sydney combines urban life with a strong connection to the coast. It is known for its harbor, iconic opera house, and beach culture that shapes daily routines. The city offers a relaxed outdoor lifestyle while remaining a major center for business and the arts.",
+      "Afio mai Matautia le ulua'i sa'o i papa, susu le sao fetalai (Laupola), susu le matua (Tela), susu mai Tamapa'a (Tuimavave), susu mai Faasuamaleaui le alo o Mata'afa, susu le aloaii (Tuiafono), maliu mai ao (Sua, Matagaono, Iaulualo, Aoelua), maliu mai Afonotele",
   },
   {
     name: "Buenos Aires",
