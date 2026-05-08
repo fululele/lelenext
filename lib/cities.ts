@@ -70,19 +70,40 @@ export const cities: City[] = [
       "Susu le tamaitai o le ao (Gaoteote), susu mai Tagoilelagi, susu nofofanau (Alofaituli, Patea) laua o le tao veloaluga, susu mai usoalii (Tagovailoa, Taito, Nino, Tuna, Taulaga) mamalu mai outlua matua (Masaniai, Tuiasosopo), ma upu ia te oulua le saofaiga (Lauti, Uta, Afuola) ma le lautinalaulelei",
   },
   {
-    name: "Nairobi",
-    itumalo: "Kenya",
-    malaefono: "Uhuru Gardens Grounds",
+    name: "Leone",
+    itumalo: "Fofo",
+    malaefono: "Laloifi, Falesau, Faleomavaega",
     faalupega:
-      "Nairobi is a major East African city with a growing technology and business scene. It is one of the few capitals where wildlife reserves sit close to the urban center, creating a unique setting. The city reflects both rapid development and deep regional cultural roots.",
+      "Afio mai Tuitele le faatui o le motu, susu mai Faivae le malu o le fale, susu mai oulua matua (Olo, Le'oso) ma vae o lo oulua to'oto'o (Fiu, Maiava), susu mai Avegalio ma Tuiteleleapaga le ati maopu, susu mai ma'ava (Ilaoa, Toomata), susu le saga esese i le aai talaluma, susu le faga o Atua, mamalu mai Salavea ma upu ia Alataua",
   },
   {
-    name: "Mumbai",
-    itumalo: "India",
-    malaefono: "Shivaji Park Maidan",
+    name: "Salelologa",
+    itumalo: "Faasaleleaga",
+    malaefono: "Malaefatu (Tua of Fuifatu)",
     faalupega:
-      "Mumbai is a coastal megacity known for commerce, cinema, and relentless energy. Historic buildings, modern high-rises, and crowded local trains all define its daily rhythm. It is a city of ambition where many languages, communities, and industries intersect.",
+      "Afio mai Muagututia ma Luamanuvae ma Tinousi, lo outout tama, susu mai le maopu o Sua ma le aiga, le fuaiala ma le malelega a Malietoa, maliu mai le falefia (Pipi, Taotua, Matamua, Fonoia) ma le falesalafai (Seumanu, Fiu, Pauli), le lologa Pule ma le faitoaga, na e lave i manino lave i aava",
   },
+  {
+    name: "Iva",
+    itumalo: "Faasaleleaga",
+    malaefono: "Avea (Tua o Fuifatu)",
+    faalupega:
+      "Afio mai Salevalasi, afio le tootoo ali'i (Tofilau) (na iva i ai aigo o Malietoa), afio mai Tagaileono me le aiga sa Tagaileono, maliu lau fetalaiga Leauanae ma le nofo ituaiga ia Sasulu",
+  },
+  {
+    name: "Sapapalii",
+    itumalo: "Faasaleleaga",
+    malaefono: "Mataniufeagaimeleata",
+    faalupega:
+      "Susu Malietoa na faalogo i ai Samoa, susu mai Tooa le sa'o na lua, susu mai le aiga sa Malietoa ma le alalafaga o usoali'i (Papalii, Seiuli, Tuilaepa, Memea, Salaa), maliu mai le matua of Mago ma i la'ua o Luasiufanua",
+  },
+  {
+    name: "Safotulafai",
+    itumalo: "Faasaleleaga",
+    malaefono: "Fuifatu, Maauga",
+    faalupega:
+      "Afio mai Leilua ma le toalima o ona alo (Tauiliili, Tuisaemo, Ae, Matautia, Agavale), Afio mai Sa Alalatoa (Pa'u, Letufuga, Tuma'ai ma le matua o Alalatoa), ma alo o Malietoa (Moananu, Taulapapa), maliu mai lua fetalaiga Tuilagi ma Namulauulu, maliu le na aimalae (Fauolo), maliu le maopu Tufuga ma le Lautinalaulelei ia Safotulafai, susu male Letufuga pule, Letufuga to'atama'i, Letufuga alofa ma lau faatufugaga, ma le mamalu ia oe Safotulafai",
+  }
 ];
 
 function parseSearchTokens(query: string): string[] {
