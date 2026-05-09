@@ -117,6 +117,41 @@ export const cities: City[] = [
     malaefono: "Lefagaoalii (tua of Siulepa)",
     faalupega:
       "Afio mai Ama ma Afoa, susu mai le Manu'a a le Sagalala (tama a le uso), susu mai alo o Tunumafono (Pule, Maugagaoa), mamalu mai lau tofa le igoa matua (Saseve), ma le nofofanau (Tagoai, Tuveve, Lau, Sautia), maliu mai oe le faletolu",
+  },
+  {
+    name: "Laulii",
+    itumalo: "Tuamasaga i Matu (Vaimauga)",
+    malaefono: "Fanuatanu",
+    faalupega:
+      "Afio le pa'ia o Salevalasi, Afio mai Leniu le Sa'ofa'apito, susu mai alo o Leniu (Mapusua, Fuamatu), susu le matua o Taliulu, maliu mai Fuatimau ma Mauletaua, ma upu ia Tuisamau",
+  },
+  {
+    name: "Moataa",
+    itumalo: "Tuamasaga i Matu (Fuaiupolu)",
+    malaefono: "Falefatu",
+    faalupega:
+      "Afio le matua of Tofaeono, susu mai Asi ma Patu, aiga e tolu (Savae - Tofaeono, Luamanuvao - Patu, Falanaipupu - Asi), maliu mai oulua na ta'i Manogiamanu ma Tamapua, upu ia Fuata",
+  },
+  {
+    name: "Apia",
+    itumalo: "Tuamasaga i Matu (Sagauga)",
+    malaefono: "Sinave, Uluomotootua",
+    faalupega:
+      "Afio le alo o Sina (Seumanutafa), afio le Fuaifale o Salevalasi, afio mai oulua matua (Onofiatele, Faaolesa), susu le aiga Sa Malietoa, maliu mai le faletolu (Tuiletufuga, Letaa, Pupualii), mamalu o le Vainalepa",
+  },
+  {
+    name: "Vaimosos",
+    itumalo: "Tuamasaga i Matu (Faleata)",
+    malaefono: "Lepea - malae oe le manino, Vaitagutu - malae o le aava, faalavelave ma puapuaga",
+    faalupega:
+      "Afio le Mataia le tama a lo fale, afio usoali'i ma le matua o Patauave, malu mai oulua matua (Manuleleua, Une), Augamalie ma le Faleagafulu, susu nofotama ma matua (Toala, Tiufea)",
+  },
+  {
+    name: "Lepea",
+    itumalo: "Tuamasaga i Matu (Faleata)",
+    malaefono: "Lepea - malae oe le manino, Vaitagutu - malae o le aava, faalavelave ma puapuaga",
+    faalupega:
+      "Afio le Tupufia ia Faumuina, afio le usali'i ma Tamapaa, (afio Leota, Letelemataneolevao), (afio mai Letele), (maliu mai le Falevalue ma le falelima o tagatanoa), mamalu mai oulua nofia Aii ma Vaitagutu (ma lo outlua vaifale), le tauaitu ma upu i le saofa'iga a le atua",
   }
 ];
 
