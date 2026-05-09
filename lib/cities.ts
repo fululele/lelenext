@@ -152,6 +152,20 @@ export const cities: City[] = [
     malaefono: "Lepea - malae oe le manino, Vaitagutu - malae o le aava, faalavelave ma puapuaga",
     faalupega:
       "Afio le Tupufia ia Faumuina, afio le usali'i ma Tamapaa, (afio Leota, Letelemataneolevao), (afio mai Letele), (maliu mai le Falevalue ma le falelima o tagatanoa), mamalu mai oulua nofia Aii ma Vaitagutu (ma lo outlua vaifale), le tauaitu ma upu i le saofa'iga a le atua",
+  },
+  {
+    name: "Malie",
+    itumalo: "Tuamasaga i Matu (Itutolu o Sagaga)",
+    malaefono: "Malie",
+    faalupega:
+      "Afio le Tapa'au fa'asisina lau susuga Malietoa na fa'alogo i ai Samoa, afio Maualaivao ma le aiga Sa Maualaivao, afio le matua of Faamausili, susu Taito le Fuaial'i, susu mai Seiuli, maliu mai pou e fitu o le fale Malietoa, ma upu ia Auimatagi",
+  },
+  {
+    name: "Afega",
+    itumalo: "Tuamasaga i Matu (Itutolu o Sagaga))",
+    malaefono: "Vaitoelau",
+    faalupega:
+      "Afio mai aiga Sa Gauifaleai, afifio outlua Alalatama (Savea, Ututaaloga), afio le matua (Manuaifua), afio le usoali'i (Laa, Maposua), afio Leuluaialii,, afio alo o Tofigalii (Pualau, Tagitagialemanu), susu ma le faleta'ita'i oulua Fata ma Maulolo o tu'itu'i o Gatoaitele, susu mai Tuisamau, ma le vagana i tulafale, Leu ma Vaitimu na au tele ai Alataua"
   }
 ];
 
