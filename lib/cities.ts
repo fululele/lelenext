@@ -77,6 +77,27 @@ export const cities: City[] = [
       "Afio mai Tuitele le faatui o le motu, susu mai Faivae le malu o le fale, susu mai oulua matua (Olo, Le'oso) ma vae o lo oulua to'oto'o (Fiu, Maiava), susu mai Avegalio ma Tuiteleleapaga le ati maopu, susu mai ma'ava (Ilaoa, Toomata), susu le saga esese i le aai talaluma, susu le faga o Atua, mamalu mai Salavea ma upu ia Alataua",
   },
   {
+    name: "Asau",
+    itumalo: "Vaisigano",
+    malaefono: "Mati'a, Tiatu'au",
+    faalupega:
+      "Afio mai Tufuga ma Masoe, afio mai aiga (Aiga o Mavaega, Samoeleoi, Salilomaiava), afio le falefa o usoali'i, afio le ma'opu (Tupua), (ma le aumaga ma le aiga Sa Taneavae), mamalu mai Salafai i ituala na lua (le falefia ma le si'u o le fanua, le falesefulumalelua o le atiatipa o Salafai na faiga) ma upu ia te oe le pule",
+  },
+  {
+    name: "Faala",
+    itumalo: "Palauli",
+    malaefono: "Vailoa",
+    faalupega:
+      "Afio mai le alo o Lilomaiavaq (Iaulualo), susu mai Sa Laulu, lo outou matua (Tauvao), Fuiava ma le aloali'i (Afoa), maliu mai Lagaaia le sa'o fetalai, alala mai lo oulua usoga (Tui, Tapusoa), ma lau tofa Manusina",
+  },
+  {
+    name: "Vaitoomuli",
+    itumalo: "Palauli",
+    malaefono: "Vailoa",
+    faalupega:
+      "Afio mai Sa Leituala ma lo outou tama (Tumua), le fa'asisina (Leavaiseeta), afio le alo o Lilomaiava (Momoisea), afio Vaovasa, mamalu mai oulua tulafaleali'i (Fiso, Seumanufagai) ma le faleupolu",
+  },
+  {
     name: "Salelologa",
     itumalo: "Faasaleleaga",
     malaefono: "Malaefatu (Tua of Fuifatu)",
@@ -162,10 +183,24 @@ export const cities: City[] = [
   },
   {
     name: "Afega",
-    itumalo: "Tuamasaga i Matu (Itutolu o Sagaga))",
+    itumalo: "Tuamasaga i Matu (Itutolu o Sagaga)",
     malaefono: "Vaitoelau",
     faalupega:
       "Afio mai aiga Sa Gauifaleai, afifio outlua Alalatama (Savea, Ututaaloga), afio le matua (Manuaifua), afio le usoali'i (Laa, Maposua), afio Leuluaialii,, afio alo o Tofigalii (Pualau, Tagitagialemanu), susu ma le faleta'ita'i oulua Fata ma Maulolo o tu'itu'i o Gatoaitele, susu mai Tuisamau, ma le vagana i tulafale, Leu ma Vaitimu na au tele ai Alataua"
+  },
+  {
+    name: "Falefa",
+    itumalo: "Atua - Anoamaa",
+    malaefono: "Moamoa -  tua o Lalogafufua",
+    faalupega:
+      "Afio mai le aiga o Tuna, afio le aiga Sa Fenunuivao, afio le aiga Sa Alaiasa, afio le aloali'i (Luafalemana), maliu mai oulua matua (Iuli, Moeonoono), ma e na leoleo i le a'ai o Fonoti, o le fatu fa'asolo o le a'ai a le Tupu"
+  },
+  {
+    name: "Lufilufi",
+    itumalo: "Atua - Anoamaa",
+    malaefono: "Lalogafufua",
+    faalupega:
+      "Susu mai Lufilufi o le Tumua, susu mai Tupai ma le toaono, afio le tama'ita'i (Seutatia) - Susu oe le Tapaaulefano, lau susuga Lufilufi ma lau saofa'iga, susu mai le vainalelepa ma le mulitu'i, fetalaiga i lo outou toaono (Sele, Manuo, Feesago, Tomanogi, Magele, Poloa), susu mai le Tuiatua ma ou tu'itu'i (Tupai, Tainau), susu le nofoa sa (Tupai), susu le Togiai o le Tuiatua ave au malage, alala mai Leausa na e ituau ai ma e alataua ai, susu le tapa'au fa'asisina, lau afioga a le tama'ita'i Seutatia na e alala maota i Mulinuu"
   }
 ];
 
