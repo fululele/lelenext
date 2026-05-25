@@ -7,9 +7,16 @@ export interface City {
 
 export const cities: City[] = [
   {
+    name: "Faleniu",
+    itumalo: "Tualauta",
+    malaefono: "Maleeimi, Faleniu",
+    faalupega:
+      "Afio le sa'o o Magalei ma le matua of Muasau, afifio mai tei o Magalei (Aiono, Solatoa), afio le falefia o Taupolo (Savea, Alaiasa, Liliii), afio le tama a Aitulagi (Malufau), susu mai taumafaalofi (Tuiaana, Maea), susu le ma'opu o Tuiaana (Maiava), alala mai la'ua na totote (Seigafo, Moeaitino), malui mai Siuolefanuafaiga",
+  },
+  {
     name: "Aua",
     itumalo: "Launiusaelua",
-    malaefono: "Paepaeulupo'o, Paepae ala",
+    malaefono: "Paepaeulupoo, Paepae ala",
     faalupega:
       "Afio mai le sa'ousoali'i (Unitoa), Afio mai le matua (Liufau) le tama aitu ma tagata, susu mai ali'i o le faleono (Ponausuia, Uli, Tilo, Afu, Niumatalolo, Saoimanulua), mamalu mai Paopaoailua ma Tufaga ma le launiusaelua",
   },
