@@ -208,6 +208,20 @@ export const cities: City[] = [
     malaefono: "Lalogafufua",
     faalupega:
       "Susu mai Lufilufi o le Tumua, susu mai Tupai ma le toaono, afio le tama'ita'i (Seutatia) - Susu oe le Tapaaulefano, lau susuga Lufilufi ma lau saofa'iga, susu mai le vainalelepa ma le mulitu'i, fetalaiga i lo outou toaono (Sele, Manuo, Feesago, Tomanogi, Magele, Poloa), susu mai le Tuiatua ma ou tu'itu'i (Tupai, Tainau), susu le nofoa sa (Tupai), susu le Togiai o le Tuiatua ave au malage, alala mai Leausa na e ituau ai ma e alataua ai, susu le tapa'au fa'asisina, lau afioga a le tama'ita'i Seutatia na e alala maota i Mulinuu"
+  },
+  {
+    name: "Faleasiu",
+    itumalo: "Aana",
+    malaefono: "Vaifoa",
+    faalupega:
+      "Afio mai aiga (Aiga o Mavaega (Maiava, Tamapaa, matua o Talamatavao), Satuala (Leaupepetele, Leaupepeifilia), Taulagi), afio mai Mailo le tama o le aitu ma le maugafa o oe o le tapunuu, afio le alo o Tamaalelagi (Tuitama), afio Tofa, maliu le faletolu (Sauvao, Fesolai, Apulu) ma le fuaifale (Tumaua, Togiaiualua), "
+  },
+  {
+    name: "Fasitoouta",
+    itumalo: "Aana",
+    malaefono: "Malaetia - le tua o Maauga",
+    faalupega:
+      "Afio Satuala le aiga fa'alagilagi, afio mai Aiono ma Leaupepe, susu e na tautua i suafa (Finai, Suamataia, Tuala, Tuisaninoga, Taimaaiono, Talamatavao), susu mai Sua le maopu o Nafanua, Afio mai Toleafoa le tapa'au fa'asisina ma le taausa (Misa, Tuifaiga, Aiolupotea, Nonumalo, Lolomatauama), afio ma susu Pule ma Mulitalo o se'etalalumna, malu le falefitu ma le nofo a ituaiga, maliu Ape na moe manatunatu, malui mai le matua o Tauauvea, (malu mai Tui ma Sasavaimuli ma lo outou tapa'au o Leatamuli"
   }
 ];
 
