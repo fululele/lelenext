@@ -222,6 +222,13 @@ export const cities: City[] = [
     malaefono: "Malaetia - le tua o Maauga",
     faalupega:
       "Afio Satuala le aiga fa'alagilagi, afio mai Aiono ma Leaupepe, susu e na tautua i suafa (Finai, Suamataia, Tuala, Tuisaninoga, Taimaaiono, Talamatavao), susu mai Sua le maopu o Nafanua, Afio mai Toleafoa le tapa'au fa'asisina ma le taausa (Misa, Tuifaiga, Aiolupotea, Nonumalo, Lolomatauama), afio ma susu Pule ma Mulitalo o se'etalalumna, malu le falefitu ma le nofo a ituaiga, maliu Ape na moe manatunatu, malui mai le matua o Tauauvea, (malu mai Tui ma Sasavaimuli ma lo outou tapa'au o Leatamuli"
+  },
+  {
+    name: "Nofoalii",
+    itumalo: "Aana",
+    malaefono: "Sagameauta - tua o Maauga",
+    faalupega:
+      "(Afio Satuala le aiga fa'alagilagi na tausi e Leulumoega), Susu mai Tanuvasa o le la'au na fausia na itulua at Aana, Afio Taimalieutu o le fofoga o Satuala, ma le falefa o le Ailaoa (Maluifaatoaga, Taualelei, Peoalii, Matagitau), Afio Muagututia le tama a Satuala, (Afio le aloali'i (Fepuleai), fetalaiga a Faiumu Mataataata, lau tofa Taumateine), le mamalu o le nofo a ituaiga ia te oe le faleaana"
   }
 ];
 
