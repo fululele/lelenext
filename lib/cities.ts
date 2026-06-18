@@ -231,6 +231,20 @@ export const cities: City[] = [
       "(Afio Satuala le aiga fa'alagilagi na tausi e Leulumoega), Susu mai Tanuvasa o le la'au na fausia na itulua at Aana, Afio Taimalieutu o le fofoga o Satuala, ma le falefa o le Ailaoa (Maluifaatoaga, Taualelei, Peoalii, Matagitau), Afio Muagututia le tama a Satuala, (Afio le aloali'i (Fepuleai), fetalaiga a Faiumu Mataataata, lau tofa Taumateine), le mamalu o le nofo a ituaiga ia te oe le faleaana"
   },
   {
+    name: "Faleatiu",
+    itumalo: "Aana",
+    malaefono: "Malaetia",
+    faalupega:
+      "Afio mai Letelemaaana ma Feiloivao (le alo o Tamaalelagi), afio le Taufia (Muni, Mase, Lelevaga), afio Tauiliili le matua (o Fonoilotoa), maliu mai lau fetalaiga Talimatasi ma le mamalu o le nofoaluma i le faleaana"
+  },
+  {
+    name: "Fasitootai",
+    itumalo: "Aana",
+    malaefono: "Fogalefatu - tua o Maauga",
+    faalupega:
+      "Afio le aiga Taulagi, afio Vaafusuaga ma Toleafoa, afio le matua o usaoali'i o Afamasaga (na e fai alaga ma matematea malo), afio le ma'opu o le Tuiaana (Tuigamala, o le au faalanumaaveave), (Toleafoa ma le falefa o ou alo (Lealaisalanoa, Ufagalilo, Laumatiamanu, Nonumalo), Afamasaga ma Tama a paa (Togitogiuluau, Lepaimasina, Anamaaitu), afio le matua o Niulevaea ma sa Lauano, afio le Tuiaana Faumuina e ana le Tupufia), maliu mai le falefitu ia te oe le ali'i o aiga (Tutuila)"
+  },
+  {
     name: "Leulumoega",
     itumalo: "Aana",
     malaefono: "Maauga",
