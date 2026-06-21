@@ -259,6 +259,13 @@ export const cities: City[] = [
       "Afio mai Saipaia le aloali'i, afio le tama'ita'i o Letelemaaana, afio Taito le matua taulagi, afio le tapa'au o Lilomaiava, (afio mai Tiumalu le matua ali'i, afio Tauiliili, afio Sauimalae, susu lau susga a le Niutapuai) mamalu mai Pei le matua ma le falefa (Taloto, Talevu, Tuala, Laifaga), maliu mai Satuimalufilufi ma le nofo a ituaiag, (maliu le falelua ma le aiga pitolua (falelua - Malaeulu, Fuga, pitolua - Malagama), maliu le vaa na ituniuese, maliu le gataiala ma lau fetalaiga Tuagalu)"
   },
   {
+    name: "Samatau",
+    itumalo: "Aana",
+    malaefono: "Niuapai",
+    faalupega:
+      "Afio le falefa o usoali'i ma le gafa, afio Fiame ma le tama'ita'i o Taetele, afio alo o Tamaalelagi, afio le ma'opu o le Tuiaana, maliu mai Puni le avaganofoa, maliu mai tala of le fale (Puni, Manoo), mamalu mai lau saofa'iga Leulumoega"
+  },
+  {
     name: "Leulumoega",
     itumalo: "Aana",
     malaefono: "Maauga",
