@@ -10,8 +10,7 @@ export default function Header() {
   const router = useRouter();
 
   const handleLogout = () => {
-    logout();
-    router.push("/");
+    void logout().then(() => router.push("/"));
   };
 
   return (
@@ -25,7 +24,7 @@ export default function Header() {
           {user ? (
             <>
               <span className="hidden text-slate-600 sm:inline">
-                Hello, {user.name}
+                Hello, {user.firstName}
               </span>
               <Link
                 href="/search"

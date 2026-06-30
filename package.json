@@ -2,9 +2,17 @@
   "name": "faalupega",
   "version": "0.1.0",
   "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently -n web,api -c blue,green \"npm run dev:web\" \"npm run dev:api\"",
+    "dev:web": "next dev",
+    "dev:api": "npm run dev -w @faalupega/api",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
     "build": "next build",
+    "build:api": "npm run build -w @faalupega/api",
     "start": "next start",
     "lint": "eslint"
   },
@@ -18,6 +26,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "concurrently": "^9.1.2",
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
     "tailwindcss": "^4",

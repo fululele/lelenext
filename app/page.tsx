@@ -13,7 +13,8 @@ export default function Home() {
           Explore villages and their stories
         </h1>
         <p className="mt-4 text-lg leading-8 text-slate-600">
-          Search by name, itumalo, malaefono, or words in faalupega. Sign up or
+          Search by name, itumalo, malaefono, suafa, or words in faalupega.
+          Sign up or
           log in to get started.
         </p>
 

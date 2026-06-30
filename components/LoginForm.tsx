@@ -4,33 +4,42 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FormEvent, useState } from "react";
 import { useAuth } from "@/components/AuthProvider";
-import { AuthFieldErrors, login, validateLogin } from "@/lib/auth";
+import {
+  LoginFieldErrors,
+  login,
+  validateLoginCredentials,
+} from "@/lib/auth";
 
 export default function LoginForm() {
   const router = useRouter();
   const { refreshSession } = useAuth();
-  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [errors, setErrors] = useState<AuthFieldErrors>({});
+  const [password, setPassword] = useState("");
+  const [errors, setErrors] = useState<LoginFieldErrors>({});
   const [formError, setFormError] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setFormError("");
 
-    const fieldErrors = validateLogin(name, email);
+    const credentials = { email, password };
+    const fieldErrors = validateLoginCredentials(credentials);
     setErrors(fieldErrors);
-    if (fieldErrors.name || fieldErrors.email) {
+    if (fieldErrors.email || fieldErrors.password) {
       return;
     }
 
-    const result = login(name, email);
+    setIsSubmitting(true);
+    const result = await login(credentials);
+    setIsSubmitting(false);
+
     if ("error" in result) {
       setFormError(result.error);
       return;
     }
 
-    refreshSession();
+    await refreshSession();
     router.push("/search");
   };
 
@@ -39,30 +48,10 @@ export default function LoginForm() {
       <section className="w-full max-w-md rounded-2xl bg-white p-6 shadow-sm sm:p-8">
         <h1 className="text-2xl font-bold text-slate-900">Log in</h1>
         <p className="mt-2 text-sm text-slate-600">
-          Enter your name and email to continue to the city search.
+          Sign in with your email and password.
         </p>
 
         <form onSubmit={handleSubmit} className="mt-6 space-y-4" noValidate>
-          <div>
-            <label
-              htmlFor="login-name"
-              className="block text-sm font-medium text-slate-700"
-            >
-              Name
-            </label>
-            <input
-              id="login-name"
-              type="text"
-              value={name}
-              onChange={(event) => setName(event.target.value)}
-              autoComplete="name"
-              className="mt-1 w-full rounded-lg border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-slate-400 focus:ring-2 focus:ring-slate-200"
-            />
-            {errors.name && (
-              <p className="mt-1 text-sm text-red-600">{errors.name}</p>
-            )}
-          </div>
-
           <div>
             <label
               htmlFor="login-email"
@@ -75,11 +64,31 @@ export default function LoginForm() {
               type="email"
               value={email}
               onChange={(event) => setEmail(event.target.value)}
-              autoComplete="email"
+              autoComplete="username email"
               className="mt-1 w-full rounded-lg border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-slate-400 focus:ring-2 focus:ring-slate-200"
             />
             {errors.email && (
               <p className="mt-1 text-sm text-red-600">{errors.email}</p>
+            )}
+          </div>
+
+          <div>
+            <label
+              htmlFor="login-password"
+              className="block text-sm font-medium text-slate-700"
+            >
+              Password
+            </label>
+            <input
+              id="login-password"
+              type="password"
+              value={password}
+              onChange={(event) => setPassword(event.target.value)}
+              autoComplete="current-password"
+              className="mt-1 w-full rounded-lg border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-slate-400 focus:ring-2 focus:ring-slate-200"
+            />
+            {errors.password && (
+              <p className="mt-1 text-sm text-red-600">{errors.password}</p>
             )}
           </div>
 
@@ -91,9 +100,10 @@ export default function LoginForm() {
 
           <button
             type="submit"
-            className="w-full rounded-lg bg-slate-900 px-6 py-3 font-medium text-white transition hover:bg-slate-700"
+            disabled={isSubmitting}
+            className="w-full rounded-lg bg-slate-900 px-6 py-3 font-medium text-white transition hover:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-60"
           >
-            Log in
+            {isSubmitting ? "Logging in…" : "Log in"}
           </button>
         </form>
 

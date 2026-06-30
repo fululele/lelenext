@@ -16,7 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Faalupega",
-  description: "Search villages by name, itumalo, malaefono, and faalupega.",
+  description:
+    "Search villages by name, itumalo, malaefono, suafa, and faalupega.",
 };
 
 export default function RootLayout({
