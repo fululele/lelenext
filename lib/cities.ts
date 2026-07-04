@@ -336,6 +336,30 @@ export const cities: City[] = [
     suafa: "Lavasii, Tuala, Leifi",
   },
   {
+    name: "Savaia",
+    itumalo: "Lefaga",
+    malaefono: "",
+    faalupega:
+      "Afio Fui ma Malama, afio Tusani, mamalu mai le atialii",
+    suafa: "",
+  },
+  {
+    name: "Gagaifo",
+    itumalo: "Lefaga",
+    malaefono: "",
+    faalupega:
+      "Susu mai Sua, afio Faumui, afio le ma'opu (Tuaopepe), susu le usoali'i (Manua, Tolumaanave, Laulu), mamalu mai Gagaifo o le vao",
+    suafa: "",
+  },
+  {
+    name: "Matautu",
+    itumalo: "Lefaga",
+    malaefono: "Malaeoletoto",
+    faalupega:
+      "Afio Lemalu ma Lemamea ma lo la falenato'ese, susu usoali'i (Taimalie, Togia), maliu mai Saleleaalii ma le mamalu ia Satuisavailuu",
+    suafa: "",
+  },
+  {
     name: "Faleseela ma Matafaa",
     itumalo: "Lefaga",
     malaefono: "Mulivai - malae o manino, Lalotoa - malae o aava, tua o Maauga",
