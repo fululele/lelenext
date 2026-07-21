@@ -366,6 +366,30 @@ export const cities: City[] = [
     faalupega:
       "Afio le aiga Taulagi (Vaafusuaga, Alalaga), afio matua o Satuala (Fenunuti, Leatuvao), susu le usoalii (Unasa, Mase, Patea, Pauli, Maiava), Samaila ma le atisamaila, maliu mai Taloolevavau - to'oto'o o maauga, maliu Polo e fa (Ausalilo, Autaloto, Aufaamulia, Taloolevavau), (maliu Soamauli o le Savali), ma le mamalu o le faleaana",
     suafa: "",
+  },
+  {
+    name: "Apolima",
+    itumalo: "Aiga i le tai",
+    malaefono: "Lalotoa",
+    faalupega:
+      "Susu mai Sa'u - na itu tolu ai Manono, (Afio mai Tooa ma lau Feaoga), maliu mai Sauma",
+    suafa: "",
+  },
+  {
+    name: "Manono",
+    itumalo: "Aiga i le tai",
+    malaefono: "Faleu, Utuagagi",
+    faalupega:
+      "Afio le to'afa o ali'i (Leiataua Lesa, Leiataua Letaua, Taupau, Mulipola), maliu mai Futi ma Auapaau, maliu le matua o Vaisagote ma upu ia Manono, (Faleu - Leiataua Lesa, le fetalaiga a Futi, Vaisagote ma upu ia Manono), (Lepuiai - Leiataua Letaua, maliu alo o Sapapa ma Vai ma le faletolu), (Salua - Taupau ma Mulipola, Luatutu le tapunu'u ma le aiga Satuilagi, auapaau ma le falefa o Salua), (Apai - susu Tuilaepa le alo o le Malietoa, le usoali'i (Tanuvasa, Silupe), susu le matua o Finau, maliu Uila ma le pologama)",
+    suafa: "",
+  },
+  {
+    name: "Mulifanua",
+    itumalo: "Aiga i le tai",
+    malaefono: "Faimata",
+    faalupega:
+      "Susu alo o Malietoa (Moananu, Taulapapa, Utuimalae, Mauinatu) ma le usoali'i (Togia Pouvi, Togia Lalovi, Ifopo), susu lou tapa'au o Taimalelagi, susu le Fuaolefau ma le Pouli, mamalu mai Ati ma Lautolo, (maliu le nofoaluma o lau tofa Lemafua ma Vaatiuola, maliu le fatei o Falute ma Amaoso)",
+    suafa: "",
   }
 ];
 
