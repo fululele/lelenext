@@ -390,6 +390,22 @@ export const cities: City[] = [
     faalupega:
       "Susu alo o Malietoa (Moananu, Taulapapa, Utuimalae, Mauinatu) ma le usoali'i (Togia Pouvi, Togia Lalovi, Ifopo), susu lou tapa'au o Taimalelagi, susu le Fuaolefau ma le Pouli, mamalu mai Ati ma Lautolo, (maliu le nofoaluma o lau tofa Lemafua ma Vaatiuola, maliu le fatei o Falute ma Amaoso)",
     suafa: "",
+  },
+  {
+    name: "Saanapu",
+    itumalo: "Tuamasaga (Saute) - Safata",
+    malaefono: "Latatuli - tua o Siulepa",
+    faalupega:
+      "Afio Anapu ma le to'alima (Mulitalo, Mati, Leaana, Seve, Tafafunai), afio Tuigamala le ma'opu o le Tuiaana, susu usoali'i, maliu Tuigaleava le igoa matua, maliu le faletolu, (maliu aiga e lua (Alo, Vole)), (maliu Sauta ma lou tapa'au Leaofaleletaua)",
+    suafa: "Tuiafelolo",
+  },
+  {
+    name: "Sataoa",
+    itumalo: "Tuamasaga (Saute) - Safata",
+    malaefono: "Siulepa",
+    faalupega:
+      "Afio Taoa ma Afemata, susu le usoali'i, (susu Seiuli, susu le tama a le uso (Manua)), (susu le matua o Tunumafono, ma le nofo a ituaiga), (susu le Tagaloa Sa o le maa'opu), maliu le fetalaiga a le igoa matua Faleafulugogo ma le faletolu",
+    suafa: "Tuiafelolo",
   }
 ];
 
