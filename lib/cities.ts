@@ -148,23 +148,7 @@ export const cities: City[] = [
     itumalo: "Faasaleleaga",
     malaefono: "Fuifatu, Maauga",
     faalupega:
-      "Susu mai Taoa ma Afemata (o le usoali'i), susu mai Seiuli, susu mai le Tagaloa Sa (le maopu), susu mai le Tama a le Uso (Manu'a), susu le matua o Tunumafono, susu le nofo a ituaiga, maliu mai le tofa le igoa matua Faleafulugogo ma lo outou faletolu",
-    suafa: "",
-  },
-  {
-    name: "Sataoa",
-    itumalo: "Tuamasaga (Saute)",
-    malaefono: "Siulepa",
-    faalupega:
-      "Afio mai Leilua ma le toalima o ona alo (Tauiliili, Tuisaemo, Ae, Matautia, Agavale), Afio mai Sa Alalatoa (Pa'u, Letufuga, Tuma'ai ma le matua o Alalatoa), ma alo o Malietoa (Moananu, Taulapapa), maliu mai lua fetalaiga Tuilagi ma Namulauulu, maliu le na aimalae (Fauolo), maliu le maopu Tufuga ma le Lautinalaulelei ia Safotulafai, susu male Letufuga pule, Letufuga to'atama'i, Letufuga alofa ma lau faatufugaga, ma le mamalu ia oe Safotulafai",
-    suafa: "",
-  },
-  {
-    name: "Lotofaga",
-    itumalo: "Tuamasaga (Saute)",
-    malaefono: "Lefagaoalii (tua of Siulepa)",
-    faalupega:
-      "Afio mai Ama ma Afoa, susu mai le Manu'a a le Sagalala (tama a le uso), susu mai alo o Tunumafono (Pule, Maugagaoa), mamalu mai lau tofa le igoa matua (Saseve), ma le nofofanau (Tagoai, Tuveve, Lau, Sautia), maliu mai oe le faletolu",
+    "Afio mai Leilua ma le toalima o ona alo (Tauiliili, Tuisaemo, Ae, Matautia, Agavale), Afio mai Sa Alalatoa (Pa'u, Letufuga, Tuma'ai ma le matua o Alalatoa), ma alo o Malietoa (Moananu, Taulapapa), maliu mai lua fetalaiga Tuilagi ma Namulauulu, maliu le na aimalae (Fauolo), maliu le maopu Tufuga ma le Lautinalaulelei ia Safotulafai, susu male Letufuga pule, Letufuga to'atama'i, Letufuga alofa ma lau faatufugaga, ma le mamalu ia oe Safotulafai",
     suafa: "",
   },
   {
@@ -414,6 +398,14 @@ export const cities: City[] = [
     faalupega:
       "Afio Ama ma Afoa, (susu le Manua of le Sagalala, le tama a le uso, alo o Tunumafono (Pule, Maugagaoa)), le fetalaiga a le Igoa Matua ia Saseve, (ma le nofo fanau (Tagoai, Tuveve, Lau, Sautia)) ma mamalu o le faletolu",
     suafa: "",
+  },
+  {
+    name: "Niusuatia",
+    itumalo: "Tuamasaga (Saute) - Safata",
+    malaefono: "Niusuatia",
+    faalupega:
+      "Afio le aiga Satunumafono, Afio Leituala o le Saofetalai, Afio Manua ma lau faleagafulu, susu Tuilimu ma Lauifata (ma le Tulouteleovaigafa), maliu mai Tapaaulefano ma lau fetalaiga Tupai Lesa (Na e taito i upu o le manino i lo outou faleupolu ma lo outou lotoifale)",
+    suafa: "Teo",
   }
 ];
 
