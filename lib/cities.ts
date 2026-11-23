@@ -88,6 +88,22 @@ export const cities: City[] = [
     suafa: "",
   },
   {
+    name: "Futiga",
+    itumalo: "Tualatai",
+    malaefono: "Paepaetele",
+    faalupega:
+      "Afio Ulufaleilupe le alo o le Tuiatua ma lou sao tamaitai (Namu), susu Tuifaleamato, maliu mai le matua o Tautootoo o Uiagalelei ma lou Atitui na eseese ma le mamalu ia Ituau",
+    suafa: "",
+  },
+  {
+    name: "Aloau",
+    itumalo: "Leasina",
+    malaefono: "Siliaga",
+    faalupega:
+      "Afio mai Fuimaono le Gafatasi (tama a le malo), susu mai Tei o Fuimaono (Afalava, Malumaleumu, Atualevao), susu mai le matua o Fuimaono (Tagaleoo), susu mai le alo o Fuimaono (Tuilesu), susu mai Lealaiasa (le na fitaituga) ma Gata (matua o Tei), susu Leota (le fa'asisina), mamalu mai tula malolosi (Lefotu, Tauola, Moananu, Faiaimasepulea), alalatai Falealili ma le aai ma Saleutogi Poe, ma le fetalaiga ia Leasina",
+    suafa: "Leotaleulualialii",
+  },
+  {
     name: "Leone",
     itumalo: "Fofo",
     malaefono: "Laloifi, Falesau, Faleomavaega",
