@@ -20,7 +20,7 @@ export const cities: City[] = [
     itumalo: "Launiusaelua",
     malaefono: "Paepaeulupoo, Paepae ala",
     faalupega:
-      "Afio mai le sa'ousoali'i (Unitoa), Afio mai le matua (Liufau) le tama aitu ma tagata, susu mai ali'i o le faleono (Ponausuia, Uli, Tilo, Afu, Niumatalolo, Saoimanulua), mamalu mai Paopaoailua ma Tufaga ma le launiusaelua",
+      "Afio mai le sa'ousoali'i (Unutoa), Afio mai le matua (Liufau) le tama aitu ma tagata, susu mai ali'i o le faleono (Ponausuia, Uli, Tilo, Afu, Niumatalolo, Saoimanulua), mamalu mai Paopaoailua ma Tufaga ma le launiusaelua",
     suafa: "",
   },
   {
